@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navbar {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 20px;
+  clip-path: polygon(0 0, 100% 0, 95% 91%, 6% 91%);
+  width: 80%;
+  margin: auto;
+}
+#navbar .links {
+  display: flex;
+}
+.links li {
+  list-style: none;
+  margin: 0 10px;
+}
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.containers{
+    background: url("../public/banner-bg.png") no-repeat center/cover;
+}
+#hero-section{
+    height: 100vh;
+}
